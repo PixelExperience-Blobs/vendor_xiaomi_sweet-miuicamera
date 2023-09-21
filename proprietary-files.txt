@@ -1,6 +1,6 @@
-# These proprietary files are extracted from Redmi Note 10 Pro (codenamed `sweet`) MIUI V14.0.1.0.TKFMIXM, unless pinned
+# All unpinned blobs below are extracted from miui_SWEETININGlobal_V14.0.1.0.TKFINXM_022ce09a45_13.0
 
--product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Snap,Camera2,GoogleCameraGo
+product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Snap,Camera2,GoogleCameraGo
 system/lib64/android.hardware.camera.common@1.0.so
 system/lib64/libcamera_algoup_jni.xiaomi.so
 system/lib64/libcamera_mianode_jni.xiaomi.so
@@ -10,8 +10,6 @@ system/lib64/libmicampostproc_client.so
 system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 system_ext/lib64/libdisplayconfig.system.qti.so
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
-vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so
-vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.camera.device@2.0.so
 vendor/lib/vendor.qti.hardware.camera.device@3.5.so
