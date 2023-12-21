@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/xiaomi/sweet-miuicamera
+
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet-miuicamera/configs/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/miuicamera-permissions.xml \
